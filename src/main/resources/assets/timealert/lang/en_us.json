@@ -1,0 +1,5 @@
+{
+  "toast.timealert.title": "You've been playing for %d hour(s)",
+  "toast.timealert.message": "Excessive gaming may interfere with normal daily life",
+  "toast.timealert.title_24": "You've been playing for greater than 24 hours"
+}

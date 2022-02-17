@@ -1,30 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "timealert",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Time Alert on 1.17",
+  "description": "Time Alert on 1.17",
   "authors": [
-    "Me!"
+    "AlphaGot"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/shs3182ym/",
+    "sources": "https://github.com/shs3182ym/time-alert"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "GPLv3",
+  "icon": "assets/timealert/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleModKt::init"
+      "com.alphagot.timealert.Main::init"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
+  "mixins": [],
   "depends": {
     "fabricloader": ">=0.8.7",
     "fabric": "*",
